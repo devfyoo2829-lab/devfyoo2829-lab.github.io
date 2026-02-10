@@ -1,2 +1,218 @@
-<h1>곽승연</h1>>
-<p>GAIDA-2nd</p>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>곽승연 | Technical PM Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap');
+        body { font-family: 'Pretendard', sans-serif; background-color: #f8fafc; }
+        .gradient-text { background: linear-gradient(90deg, #6366f1, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .metric-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold gradient-text">GWAK SEUNG YEON</span>
+            <div class="space-x-6 text-sm font-semibold text-slate-600">
+                <a href="#about" class="hover:text-indigo-600">About</a>
+                <a href="#projects" class="hover:text-indigo-600">Projects</a>
+                <a href="#skills" class="hover:text-indigo-600">Skills</a>
+                <a href="mailto:fyoo2829@gmail.com" class="bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="max-w-5xl mx-auto px-6 py-20 text-center">
+        <h2 class="text-indigo-600 font-bold tracking-widest mb-4 uppercase text-sm">Technical Product Manager</h2>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            Document AI의 기술적 병목을 해결하고<br>
+            <span class="gradient-text">비즈니스 가치를 실증합니다.</span>
+        </h1>
+        <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-10">
+            OCR 추출 데이터와 카탈로그 DB 매칭 알고리즘 최적화 및 금융권 전용선/VPN 구축으로 엔터프라이즈 환경의 안정적 서빙을 책임집니다.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="metric-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <p class="text-slate-500 text-sm mb-2">식별 정확도 향상</p>
+                <h3 class="text-4xl font-bold text-indigo-600">81% <span class="text-lg text-emerald-500">↑50%p</span></h3>
+                <p class="text-xs text-slate-400 mt-2">31% → 81% (카탈로그 매칭)</p>
+            </div>
+            <div class="metric-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-indigo-900 bg-indigo-50/30">
+                <p class="text-slate-500 text-sm mb-2">엔터프라이즈 TTV 단축</p>
+                <h3 class="text-4xl font-bold text-indigo-600">78.6% <i class="fa-solid fa-bolt text-yellow-400 text-2xl"></i></h3>
+                <p class="text-xs text-slate-400 mt-2">2주 → 3일 (B2B 솔루션 런칭)</p>
+            </div>
+            <div class="metric-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <p class="text-slate-500 text-sm mb-2">장애 발생 감소</p>
+                <h3 class="text-4xl font-bold text-rose-500">-83% <i class="fa-solid fa-shield-halved text-2xl"></i></h3>
+                <p class="text-xs text-slate-400 mt-2">월 12건 → 2건 (QA 인프라)</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="bg-white py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-12 flex items-center gap-3">
+                <span class="w-8 h-1 bg-indigo-600 rounded-full"></span> Professional Summary
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12 text-slate-600 leading-relaxed">
+                <div>
+                    <p class="mb-4">
+                        NICE디앤알에서 4년 3개월간 <strong>엔터프라이즈 B2B 솔루션 연동 및 런칭</strong>을 주도하며, 기술과 비즈니스의 접점에서 발생하는 병목을 해결해왔습니다[cite: 941, 1152].
+                    </p>
+                    <p>
+                        특히 비정형 OCR 데이터를 실제 비즈니스 데이터셋과 정렬(Alignment)하는 <strong>임베딩 기반 매칭 엔진</strong>을 구축하여 운영 효율을 90% 이상 달성했습니다[cite: 1160, 1189].
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-xl border border-slate-100">
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex justify-between border-b border-slate-200 pb-2">
+                            <span class="font-semibold text-slate-400">Current</span>
+                            <span class="text-indigo-600 font-bold">NICE디앤알 | Product Manager</span>
+                        </li>
+                        <li class="flex justify-between border-b border-slate-200 pb-2">
+                            <span class="font-semibold text-slate-400">Experience</span>
+                            <span>5년차 (2021.06 ~ )</span>
+                        </li>
+                        <li class="flex justify-between border-b border-slate-200 pb-2">
+                            <span class="font-semibold text-slate-400">Education</span>
+                            <span>한남대학교 비즈니스통계학 학사</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span class="font-semibold text-slate-400">Awards</span>
+                            <span>NICE그룹 신사업 경연 최우수상 외 7회</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-12 flex items-center gap-3">
+                <span class="w-8 h-1 bg-indigo-600 rounded-full"></span> Selected Projects
+            </h2>
+
+            <div class="space-y-12">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="flex flex-wrap justify-between items-start mb-6">
+                        <div>
+                            <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full mb-3 inline-block">Embedding & Data Ops</span>
+                            <h3 class="text-2xl font-bold">임베딩 기반 데이터 매칭 최적화</h3>
+                        </div>
+                        <span class="text-slate-400 text-sm">2025.01 - 2025.07</span>
+                    </div>
+                    <p class="text-slate-600 mb-6">
+                        비정형 OCR 데이터와 정형 카탈로그 DB 간의 매칭 정확도를 <strong>31%에서 81%로 개선</strong>했습니다. Ollama를 임베딩 엔진으로 활용하여 세만틱 유사도 기반의 하이브리드 Retrieval 시스템을 구축했습니다[cite: 984, 1159].
+                    </p>
+                    <ul class="list-disc list-inside text-sm text-slate-500 space-y-2 mb-6">
+                        <li>Ollama 임베딩 모델을 통한 700만 건 데이터 벡터화 및 유사도 매칭 [cite: 1161, 1250]</li>
+                        <li>Vector DB 선조회 기반 하이브리드 아키텍처로 Hallucination 차단 및 정확도 99% 달성 [cite: 1189, 1251]</li>
+                        <li>검수 리드타임 67% 단축 및 월 매출 21% 성장 견인 [cite: 1164, 1189]</li>
+                    </ul>
+                    <div class="flex gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">Ollama</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">Vector DB</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">n8n</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="flex flex-wrap justify-between items-start mb-6">
+                        <div>
+                            <span class="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full mb-3 inline-block">Infrastructure & Launching</span>
+                            <h3 class="text-2xl font-bold">엔터프라이즈 폐쇄망 배포 인프라 구축</h3>
+                        </div>
+                        <span class="text-slate-400 text-sm">2022.06 - 2023.06</span>
+                    </div>
+                    <p class="text-slate-600 mb-6">
+                        금융권 망분리 규제 환경에서 외부 API 연동이 불가한 병목을 <strong>VPN 및 전용선 표준화</strong>를 통해 해결했습니다. 계약 체결부터 런칭까지의 TTV를 78.6% 단축했습니다[cite: 1027, 1206].
+                    </p>
+                    <ul class="list-disc list-inside text-sm text-slate-500 space-y-2 mb-6">
+                        <li>금융권 10개사 대상 VPN/전용선 터널링 아키텍처 설계 및 네트워크 이중화 적용 [cite: 1154, 1209]</li>
+                        <li>5 TPS Rate Limiting 및 사용량 기반 Billing 로직 모듈화 설계 [cite: 1155, 1208]</li>
+                        <li>온보딩 TTV 2주 → 3일 단축 및 연간 2억 원 매출 창출 [cite: 1048-1052, 1157]</li>
+                    </ul>
+                    <div class="flex gap-2">
+                        <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">VPN/Leased Line</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">Docker</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">SLA 99.9%</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 border-indigo-200">
+                    <div class="flex flex-wrap justify-between items-start mb-6">
+                        <div>
+                            <span class="text-xs font-bold text-white bg-indigo-600 px-3 py-1 rounded-full mb-3 inline-block">Latest AI Project</span>
+                            <h3 class="text-2xl font-bold">Cartells: 자동차 감정평가 자동화 (RAG)</h3>
+                        </div>
+                        <span class="text-slate-400 text-sm">SeSAC LLM Agent Course</span>
+                    </div>
+                    <p class="text-slate-600 mb-6 text-indigo-900/80">
+                        비정형 자동차등록원부 파싱 및 권리 해석을 자동화했습니다. **n8n 오케스트레이션**을 통해 20분 소요되던 업무를 1분으로 단축시켰습니다 [cite: 1063-1064, 1254].
+                    </p>
+                    <ul class="list-disc list-inside text-sm text-indigo-700/60 space-y-2 mb-6">
+                        <li>DB 선조회 + LLM 권리 해석 하이브리드 아키텍처로 토큰 비용 40% 절감 [cite: 1252, 1256]</li>
+                        <li>77페이지 분량의 법률 문서를 RAG로 연동하여 판단 근거 자동 생성 [cite: 1253]</li>
+                        <li>업무 생산성 40배 향상 및 데이터 매칭 정확도 99% 달성 [cite: 1081, 1255]</li>
+                    </ul>
+                    <div class="flex gap-2">
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-600 text-xs rounded">n8n</span>
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-600 text-xs rounded">RAG</span>
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-600 text-xs rounded">Chroma DB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-white py-20">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold mb-16 flex items-center justify-center gap-3">
+                <span class="w-8 h-1 bg-indigo-600 rounded-full"></span> Tech Stack & Tools
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <i class="fa-solid fa-brain text-3xl text-indigo-600 mb-4"></i>
+                    <h4 class="font-bold mb-2">AI & Embedding</h4>
+                    <p class="text-xs text-slate-500">Ollama, Vector DB, RAG, Prompt Engineering [cite: 1220-1224]</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code text-3xl text-indigo-600 mb-4"></i>
+                    <h4 class="font-bold mb-2">Data & Dev</h4>
+                    <p class="text-xs text-slate-500">Python (Pandas/NumPy), SQL, REST API, Docker [cite: 1225-1235]</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-network-wired text-3xl text-indigo-600 mb-4"></i>
+                    <h4 class="font-bold mb-2">Infrastructure</h4>
+                    <p class="text-xs text-slate-500">VPN(IPSec), Leased Line(MPLS), High TPS 서빙 [cite: 934-936]</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears text-3xl text-indigo-600 mb-4"></i>
+                    <h4 class="font-bold mb-2">Automation</h4>
+                    <p class="text-xs text-slate-500">n8n, GitHub Actions, Jira, Figma [cite: 1236-1237]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-12">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <p class="mb-4">Making AI Beneficial Through Stable Delivery.</p>
+            <div class="flex justify-center space-x-6 text-xl mb-8">
+                <a href="mailto:fyoo2829@gmail.com" class="hover:text-white"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/yonniii" class="hover:text-white"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="text-xs">&copy; 2026 Gwak Seung-yeon. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
