@@ -1,7 +1,7 @@
 # 🚀 Technical PM Portfolio | 곽승연 (Gwak Seung-yeon)
 
-> [cite_start]**"AI 기술의 결과물을 비즈니스 가치로 실증하는 Technical Product Manager입니다."** [cite: 2, 4, 159]
-> [cite_start]4년 3개월간 NICE디앤알에서 B2B 솔루션의 런칭부터 엔터프라이즈 인프라 구축, 운영 안정화까지 전체 수명 주기를 리딩했습니다[cite: 40, 42, 251, 253].
+> **"AI 기술의 결과물을 비즈니스 가치로 실증하는 Technical Product Manager입니다."**
+> 4년 3개월간 NICE디앤알에서 B2B 솔루션의 런칭부터 엔터프라이즈 인프라 구축, 운영 안정화까지 전체 수명 주기를 리딩했습니다.
 
 ---
 
@@ -10,24 +10,24 @@
 
 | Category | Performance Impact | Key Result |
 | :--- | :--- | :--- |
-| **Data Matching** | [cite_start]**식별 정확도 81% 달성** [cite: 7, 8, 248] | [cite_start]31% → 81% (+50%p 향상) [cite: 9, 108, 265] |
-| **Launching Speed** | [cite_start]**TTV 78.6% 단축** [cite: 10, 11, 254] | [cite_start]2주 → 3일 (B2B 솔루션 런칭) [cite: 12, 149, 153] |
-| **Service Stability** | [cite_start]**장애 발생률 -83%** [cite: 15, 16, 259] | [cite_start]월 12건 → 2건 (QA 인프라 구축) [cite: 17, 74, 316] |
-| **Ops Efficiency** | [cite_start]**생산성 40배 향상** [cite: 33, 34] [cite_start]| n8n 오케스트레이션 자동화 도입 [cite: 182, 338] |
+| **Data Matching** | **식별 정확도 81% 달성** | 31% → 81% (+50%p 향상) |
+| **Launching Speed** | **TTV 78.6% 단축** | 2주 → 3일 (B2B 솔루션 런칭) |
+| **Service Stability** | **장애 발생률 -83%** | 월 12건 → 2건 (QA 인프라 구축) |
+| **Ops Efficiency** | **생산성 40배 향상** | n8n 오케스트레이션 자동화 도입 |
 
 ---
 
 ## 🛠️ Technical Core Competencies
 
 ### 1. AI & Embedding Operations
-* [cite_start]**Semantic Matching Engine**: Ollama 임베딩 모델을 활용해 비정형 OCR 데이터를 실제 카탈로그 DB와 1:1로 정렬하는 매칭 로직 설계[cite: 21, 22, 261].
-* [cite_start]**Hybrid Retrieval Strategy**: 규칙 기반 필터링과 벡터 유사도 검색을 결합하여 환각(Hallucination)을 방지하고 검색 정확도 99% 확보[cite: 263, 264, 290].
-* [cite_start]**Data Engineering**: Python/SQL을 활용한 700만 건 이상의 대용량 데이터 전처리 및 정합성 검증 파이프라인 운영[cite: 27, 28, 327, 328].
+* **Semantic Matching Engine**: Ollama 임베딩 모델을 활용해 비정형 OCR 데이터를 실제 카탈로그 DB와 1:1로 정렬하는 매칭 로직 설계.
+* **Hybrid Retrieval Strategy**: 규칙 기반 필터링과 벡터 유사도 검색을 결합하여 환각(Hallucination)을 방지하고 검색 정확도 99% 확보.
+* **Data Engineering**: Python/SQL을 활용한 700만 건 이상의 대용량 데이터 전처리 및 정합성 검증 파이프라인 운영.
 
 ### 2. Enterprise Solution Launching
-* [cite_start]**Secure Infra Architecture**: 금융권 망분리 규제에 대응한 **전용선(MPLS) 및 VPN(IPSec)** 터널링 아키텍처 설계 및 구축[cite: 36, 37, 146, 310].
-* [cite_start]**API Standardization**: 5 TPS Rate Limiting, 사용량 기반 Billing 로직, OpenAPI 3.0 명세 등 엔터프라이즈 연동 표준 수립[cite: 256, 309, 335].
-* [cite_start]**High-Traffic Optimization**: 600 TPS 환경에서 0.1초 이내 응답을 보장하는 캐싱 레이어 및 쿼리 최적화 주도[cite: 37, 49, 257].
+* **Secure Infra Architecture**: 금융권 망분리 규제에 대응한 **전용선(MPLS) 및 VPN(IPSec)** 터널링 아키텍처 설계 및 구축.
+* **API Standardization**: 5 TPS Rate Limiting, 사용량 기반 Billing 로직, OpenAPI 3.0 명세 등 엔터프라이즈 연동 표준 수립.
+* **High-Traffic Optimization**: 600 TPS 환경에서 0.1초 이내 응답을 보장하는 캐싱 레이어 및 쿼리 최적화 주도.
 
 ---
 
@@ -35,37 +35,36 @@
 
 ### 🏎️ Post-OCR 데이터 매칭 최적화 (Project 1)
 **비정형 문서 식별률 31% → 81% 개선**
-* [cite_start]**Problem**: OCR 추출 데이터와 정형 DB 간 불일치로 인한 낮은 식별률과 수동 검수 병목[cite: 85, 87, 88].
-* [cite_start]**Solution**: Ollama 임베딩 모델 기반의 벡터 유사도 검색 엔진 도입 및 HNSW 알고리즘을 통한 검색 속도 최적화[cite: 93, 94, 125, 290].
-* [cite_start]**Impact**: 검수 리드타임 67% 단축 및 완전 자동화 비중 확대로 매출 21% 성장 견인[cite: 108, 265, 266, 290].
+* **Problem**: OCR 추출 데이터와 정형 DB 간 불일치로 인한 낮은 식별률과 수동 검수 병목.
+* **Solution**: Ollama 임베딩 모델 기반의 벡터 유사도 검색 엔진 도입 및 HNSW 알고리즘을 통한 검색 속도 최적화.
+* **Impact**: 검수 리드타임 67% 단축 및 완전 자동화 비중 확대로 매출 21% 성장 견인.
 
 ### 🏦 엔터프라이즈 B2B 런칭 및 인프라 표준화 (Project 2)
 **금융권 온보딩 리드타임 78.6% 단축**
-* [cite_start]**Problem**: 망분리 환경으로 인한 외부 API 연동 불가 및 고객사별 상이한 보안 요구사항으로 배포 지연[cite: 130, 131, 307, 308].
-* [cite_start]**Solution**: VPN/전용선 협의 프로세스 템플릿화 및 사전 보안 질의 대응 프로세스 정립[cite: 136, 138, 146, 147].
-* [cite_start]**Impact**: 인프라 구축 기간 2주 → 3일 단축, K은행 등 대형 금융사 핵심 파트너 안착[cite: 149, 150, 152, 314].
+* **Problem**: 망분리 환경으로 인한 외부 API 연동 불가 및 고객사별 상이한 보안 요구사항으로 배포 지연.
+* **Solution**: VPN/전용선 협의 프로세스 템플릿화 및 사전 보안 질의 대응 프로세스 정립.
+* **Impact**: 인프라 구축 기간 2주 → 3일 단축, K은행 등 대형 금융사 핵심 파트너 안착.
 
 ### 🤖 Cartells: 자동차 감정평가 자동화 (Project 3)
 **n8n 기반 하이브리드 RAG 아키텍처 설계**
-* [cite_start]**Problem**: 자동차등록원부의 복잡한 권리 관계 해석 오류 및 LLM 호출 비용 부담[cite: 171, 172, 347].
-* [cite_start]**Solution**: DB 선조회(정확도) + LLM 권리 해석(유연성) + 법률 RAG(신뢰도) 연동 파이프라인 구축[cite: 166, 167, 175, 176, 353, 354].
-
-* [cite_start]**Impact**: 처리 시간 95% 절감(20분 → 1분) 및 토큰 비용 40% 최적화[cite: 203, 356, 357].
+* **Problem**: 자동차등록원부의 복잡한 권리 관계 해석 오류 및 LLM 호출 비용 부담.
+* **Solution**: DB 선조회(정확도) + LLM 권리 해석(유연성) + 법률 RAG(신뢰도) 연동 파이프라인 구축.
+* **Impact**: 처리 시간 95% 절감(20분 → 1분) 및 토큰 비용 40% 최적화.
 
 ---
 
 ## 📅 90-Day Vision in Upstage
-1. [cite_start]**Learn (1-30일)**: Upstage Document AI 제품군의 기술 스택 및 온프레미스 배포 환경 진단[cite: 210, 215].
-2. [cite_start]**Contribute (31-60일)**: 폐쇄망 배포 가이드 표준화 및 데이터 피드백 루프 기반의 Confidence 대시보드 구축[cite: 216, 218, 220, 228].
-3. [cite_start]**Lead (61-90일)**: 엔터프라이즈 고객 온보딩 TTV 단축 및 신규 도메인(물류/공공) 확장 기회 발굴[cite: 213, 217, 225, 227].
+1. **Learn (1-30일)**: Upstage Document AI 제품군의 기술 스택 및 온프레미스 배포 환경 진단.
+2. **Contribute (31-60일)**: 폐쇄망 배포 가이드 표준화 및 데이터 피드백 루프 기반의 Confidence 대시보드 구축.
+3. **Lead (61-90일)**: 엔터프라이즈 고객 온보딩 TTV 단축 및 신규 도메인(물류/공공) 확장 기회 발굴.
 
 ---
 
 ## 📫 Contact
-* [cite_start]**Email**: fyoo2829@gmail.com [cite: 14, 245]
-* [cite_start]**Phone**: 010-5593-8005 [cite: 14, 246]
+* **Email**: fyoo2829@gmail.com
+* **Phone**: 010-5593-8005
 * **GitHub**: [github.com/yonniii](https://github.com/yonniii)
-* [cite_start]**Location**: Seoul, Korea [cite: 14]
+* **Location**: Seoul, Korea
 
 ---
 *Last Updated: 2026-02-10*
