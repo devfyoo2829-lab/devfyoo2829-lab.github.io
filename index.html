@@ -9,7 +9,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;700&display=swap');
         body { font-family: 'Pretendard', sans-serif; background-color: #f8fafc; }
-        .gradient-text { background: linear-gradient(90deg, #6366f1, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .gradient-text { 
+            background: linear-gradient(90deg, #6366f1, #a855f7); 
+            -webkit-background-clip: text; 
+            background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+        }
         .metric-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
     </style>
 </head>
@@ -64,10 +69,10 @@
             <div class="grid md:grid-cols-2 gap-12 text-slate-600 leading-relaxed">
                 <div>
                     <p class="mb-4">
-                        NICE디앤알에서 4년 3개월간 <strong>엔터프라이즈 B2B 솔루션 연동 및 런칭</strong>을 주도하며, 기술과 비즈니스의 접점에서 발생하는 병목을 해결해왔습니다[cite: 941, 1152].
+                        NICE디앤알에서 4년 3개월간 <strong>엔터프라이즈 B2B 솔루션 연동 및 런칭</strong>을 주도하며, 기술과 비즈니스의 접점에서 발생하는 병목을 해결해왔습니다.
                     </p>
                     <p>
-                        특히 비정형 OCR 데이터를 실제 비즈니스 데이터셋과 정렬(Alignment)하는 <strong>임베딩 기반 매칭 엔진</strong>을 구축하여 운영 효율을 90% 이상 달성했습니다[cite: 1160, 1189].
+                        특히 비정형 OCR 데이터를 실제 비즈니스 데이터셋과 정렬(Alignment)하는 <strong>임베딩 기반 매칭 엔진</strong>을 구축하여 운영 효율을 90% 이상 달성했습니다.
                     </p>
                 </div>
                 <div class="bg-slate-50 p-6 rounded-xl border border-slate-100">
@@ -110,12 +115,12 @@
                         <span class="text-slate-400 text-sm">2025.01 - 2025.07</span>
                     </div>
                     <p class="text-slate-600 mb-6">
-                        비정형 OCR 데이터와 정형 카탈로그 DB 간의 매칭 정확도를 <strong>31%에서 81%로 개선</strong>했습니다. Ollama를 임베딩 엔진으로 활용하여 세만틱 유사도 기반의 하이브리드 Retrieval 시스템을 구축했습니다[cite: 984, 1159].
+                        비정형 OCR 데이터와 정형 카탈로그 DB 간의 매칭 정확도를 <strong>31%에서 81%로 개선</strong>했습니다. Ollama를 임베딩 엔진으로 활용하여 세만틱 유사도 기반의 하이브리드 Retrieval 시스템을 구축했습니다.
                     </p>
                     <ul class="list-disc list-inside text-sm text-slate-500 space-y-2 mb-6">
-                        <li>Ollama 임베딩 모델을 통한 700만 건 데이터 벡터화 및 유사도 매칭 [cite: 1161, 1250]</li>
-                        <li>Vector DB 선조회 기반 하이브리드 아키텍처로 Hallucination 차단 및 정확도 99% 달성 [cite: 1189, 1251]</li>
-                        <li>검수 리드타임 67% 단축 및 월 매출 21% 성장 견인 [cite: 1164, 1189]</li>
+                        <li>Ollama 임베딩 모델을 통한 700만 건 데이터 벡터화 및 유사도 매칭</li>
+                        <li>Vector DB 선조회 기반 하이브리드 아키텍처로 Hallucination 차단 및 정확도 99% 달성</li>
+                        <li>검수 리드타임 67% 단축 및 월 매출 21% 성장 견인</li>
                     </ul>
                     <div class="flex gap-2">
                         <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">Ollama</span>
@@ -133,12 +138,12 @@
                         <span class="text-slate-400 text-sm">2022.06 - 2023.06</span>
                     </div>
                     <p class="text-slate-600 mb-6">
-                        금융권 망분리 규제 환경에서 외부 API 연동이 불가한 병목을 <strong>VPN 및 전용선 표준화</strong>를 통해 해결했습니다. 계약 체결부터 런칭까지의 TTV를 78.6% 단축했습니다[cite: 1027, 1206].
+                        금융권 망분리 규제 환경에서 외부 API 연동이 불가한 병목을 <strong>VPN 및 전용선 표준화</strong>를 통해 해결했습니다. 계약 체결부터 런칭까지의 TTV를 78.6% 단축했습니다.
                     </p>
                     <ul class="list-disc list-inside text-sm text-slate-500 space-y-2 mb-6">
-                        <li>금융권 10개사 대상 VPN/전용선 터널링 아키텍처 설계 및 네트워크 이중화 적용 [cite: 1154, 1209]</li>
-                        <li>5 TPS Rate Limiting 및 사용량 기반 Billing 로직 모듈화 설계 [cite: 1155, 1208]</li>
-                        <li>온보딩 TTV 2주 → 3일 단축 및 연간 2억 원 매출 창출 [cite: 1048-1052, 1157]</li>
+                        <li>금융권 10개사 대상 VPN/전용선 터널링 아키텍처 설계 및 네트워크 이중화 적용</li>
+                        <li>5 TPS Rate Limiting 및 사용량 기반 Billing 로직 모듈화 설계</li>
+                        <li>온보딩 TTV 2주 → 3일 단축 및 연간 2억 원 매출 창출</li>
                     </ul>
                     <div class="flex gap-2">
                         <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">VPN/Leased Line</span>
@@ -156,12 +161,12 @@
                         <span class="text-slate-400 text-sm">SeSAC LLM Agent Course</span>
                     </div>
                     <p class="text-slate-600 mb-6 text-indigo-900/80">
-                        비정형 자동차등록원부 파싱 및 권리 해석을 자동화했습니다. **n8n 오케스트레이션**을 통해 20분 소요되던 업무를 1분으로 단축시켰습니다 [cite: 1063-1064, 1254].
+                        비정형 자동차등록원부 파싱 및 권리 해석을 자동화했습니다. <strong>n8n 오케스트레이션</strong>을 통해 20분 소요되던 업무를 1분으로 단축시켰습니다.
                     </p>
                     <ul class="list-disc list-inside text-sm text-indigo-700/60 space-y-2 mb-6">
-                        <li>DB 선조회 + LLM 권리 해석 하이브리드 아키텍처로 토큰 비용 40% 절감 [cite: 1252, 1256]</li>
-                        <li>77페이지 분량의 법률 문서를 RAG로 연동하여 판단 근거 자동 생성 [cite: 1253]</li>
-                        <li>업무 생산성 40배 향상 및 데이터 매칭 정확도 99% 달성 [cite: 1081, 1255]</li>
+                        <li>DB 선조회 + LLM 권리 해석 하이브리드 아키텍처로 토큰 비용 40% 절감</li>
+                        <li>77페이지 분량의 법률 문서를 RAG로 연동하여 판단 근거 자동 생성</li>
+                        <li>업무 생산성 40배 향상 및 데이터 매칭 정확도 99% 달성</li>
                     </ul>
                     <div class="flex gap-2">
                         <span class="px-3 py-1 bg-indigo-100 text-indigo-600 text-xs rounded">n8n</span>
@@ -182,22 +187,22 @@
                 <div>
                     <i class="fa-solid fa-brain text-3xl text-indigo-600 mb-4"></i>
                     <h4 class="font-bold mb-2">AI & Embedding</h4>
-                    <p class="text-xs text-slate-500">Ollama, Vector DB, RAG, Prompt Engineering [cite: 1220-1224]</p>
+                    <p class="text-xs text-slate-500">Ollama, Vector DB, RAG, Prompt Engineering</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-code text-3xl text-indigo-600 mb-4"></i>
                     <h4 class="font-bold mb-2">Data & Dev</h4>
-                    <p class="text-xs text-slate-500">Python (Pandas/NumPy), SQL, REST API, Docker [cite: 1225-1235]</p>
+                    <p class="text-xs text-slate-500">Python (Pandas/NumPy), SQL, REST API, Docker</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-network-wired text-3xl text-indigo-600 mb-4"></i>
                     <h4 class="font-bold mb-2">Infrastructure</h4>
-                    <p class="text-xs text-slate-500">VPN(IPSec), Leased Line(MPLS), High TPS 서빙 [cite: 934-936]</p>
+                    <p class="text-xs text-slate-500">VPN(IPSec), Leased Line(MPLS), High TPS 서빙</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-gears text-3xl text-indigo-600 mb-4"></i>
                     <h4 class="font-bold mb-2">Automation</h4>
-                    <p class="text-xs text-slate-500">n8n, GitHub Actions, Jira, Figma [cite: 1236-1237]</p>
+                    <p class="text-xs text-slate-500">n8n, GitHub Actions, Jira, Figma</p>
                 </div>
             </div>
         </div>
