@@ -45,8 +45,8 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="metric-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
                 <p class="text-slate-500 text-sm mb-2">식별 정확도 향상</p>
-                <h3 class="text-4xl font-bold text-indigo-600">81% <span class="text-lg text-emerald-500">↑50%p</span></h3>
-                <p class="text-xs text-slate-400 mt-2">31% → 81% (카탈로그 매칭)</p>
+                <h3 class="text-4xl font-bold text-indigo-600">90% <span class="text-lg text-emerald-500">↑59%p</span></h3>
+                <p class="text-xs text-slate-400 mt-2">31% → 90% (식별 정확도)</p>
             </div>
             <div class="metric-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-indigo-900 bg-indigo-50/30">
                 <p class="text-slate-500 text-sm mb-2">엔터프라이즈 TTV 단축</p>
@@ -72,7 +72,7 @@
                         NICE디앤알에서 4년 3개월간 <strong>엔터프라이즈 B2B 솔루션 연동 및 런칭</strong>을 주도하며, 기술과 비즈니스의 접점에서 발생하는 병목을 해결해왔습니다.
                     </p>
                     <p>
-                        특히 비정형 OCR 데이터를 실제 비즈니스 데이터셋과 정렬(Alignment)하는 <strong>임베딩 기반 매칭 엔진</strong>을 구축하여 운영 효율을 90% 이상 달성했습니다.
+                        특히 비정형 OCR 데이터를 실제 비즈니스 데이터셋과 정렬(Alignment)하는 <strong>임베딩 기반 매칭 엔진</strong>을 구축하여 데이터 기반 의사결정으로 식별 정확도 90%를 달성했습니다.
                     </p>
                 </div>
                 <div class="bg-slate-50 p-6 rounded-xl border border-slate-100">
@@ -115,15 +115,15 @@
                         <span class="text-slate-400 text-sm">2025.01 - 2025.07</span>
                     </div>
                     <p class="text-slate-600 mb-6">
-                        비정형 OCR 데이터와 정형 카탈로그 DB 간의 매칭 정확도를 <strong>31%에서 81%로 개선</strong>했습니다. Ollama를 임베딩 엔진으로 활용하여 세만틱 유사도 기반의 하이브리드 Retrieval 시스템을 구축했습니다.
+                        비정형 OCR 데이터와 정형 카탈로그 DB 간의 매칭 정확도를 <strong>31%에서 90%로 개선</strong>했습니다. nomic-embed-text를 임베딩 엔진으로 활용하여 세만틱 유사도 기반의 하이브리드 Retrieval 시스템을 구축했습니다.
                     </p>
                     <ul class="list-disc list-inside text-sm text-slate-500 space-y-2 mb-6">
-                        <li>Ollama 임베딩 모델을 통한 700만 건 데이터 벡터화 및 유사도 매칭</li>
-                        <li>Vector DB 선조회 기반 하이브리드 아키텍처로 Hallucination 차단 및 정확도 99% 달성</li>
+                        <li>nomic-embed-text 임베딩 모델을 통한 700만 건 데이터 벡터화 및 유사도 매칭</li>
+                        <li>Vector DB 선조회 기반 하이브리드 아키텍처로 환각 응답 사전 차단</li>
                         <li>검수 리드타임 67% 단축 및 월 매출 21% 성장 견인</li>
                     </ul>
                     <div class="flex gap-2">
-                        <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">Ollama</span>
+                        <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">nomic-embed-text</span>
                         <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">Vector DB</span>
                         <span class="px-3 py-1 bg-slate-100 text-slate-500 text-xs rounded">n8n</span>
                     </div>
@@ -141,7 +141,7 @@
                         금융권 망분리 규제 환경에서 외부 API 연동이 불가한 병목을 <strong>VPN 및 전용선 표준화</strong>를 통해 해결했습니다. 계약 체결부터 런칭까지의 TTV를 78.6% 단축했습니다.
                     </p>
                     <ul class="list-disc list-inside text-sm text-slate-500 space-y-2 mb-6">
-                        <li>금융권 10개사 대상 VPN/전용선 터널링 아키텍처 설계 및 네트워크 이중화 적용</li>
+                        <li>31개 고객사 중 금융권 10개사 대상 VPN/전용선 터널링 아키텍처 설계 및 네트워크 이중화 적용</li>
                         <li>5 TPS Rate Limiting 및 사용량 기반 Billing 로직 모듈화 설계</li>
                         <li>온보딩 TTV 2주 → 3일 단축 및 연간 2억 원 매출 창출</li>
                     </ul>
@@ -187,7 +187,7 @@
                 <div>
                     <i class="fa-solid fa-brain text-3xl text-indigo-600 mb-4"></i>
                     <h4 class="font-bold mb-2">AI & Embedding</h4>
-                    <p class="text-xs text-slate-500">Ollama, Vector DB, RAG, Prompt Engineering</p>
+                    <p class="text-xs text-slate-500">nomic-embed-text, Vector DB, RAG, Prompt Engineering</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-code text-3xl text-indigo-600 mb-4"></i>

@@ -10,7 +10,7 @@
 
 | Category | Performance Impact | Key Result |
 | :--- | :--- | :--- |
-| **Data Matching** | **식별 정확도 81% 달성** | 31% → 81% (+50%p 향상) |
+| **Data Matching** | **식별 정확도 90% 달성** | 31% → 90% (+59%p 향상) |
 | **Launching Speed** | **TTV 78.6% 단축** | 2주 → 3일 (B2B 솔루션 런칭) |
 | **Service Stability** | **장애 발생률 -83%** | 월 12건 → 2건 (QA 인프라 구축) |
 | **Ops Efficiency** | **생산성 40배 향상** | n8n 오케스트레이션 자동화 도입 |
@@ -20,8 +20,8 @@
 ## 🛠️ Technical Core Competencies
 
 ### 1. AI & Embedding Operations
-* **Semantic Matching Engine**: Ollama 임베딩 모델을 활용해 비정형 OCR 데이터를 실제 카탈로그 DB와 1:1로 정렬하는 매칭 로직 설계.
-* **Hybrid Retrieval Strategy**: 규칙 기반 필터링과 벡터 유사도 검색을 결합하여 환각(Hallucination)을 방지하고 검색 정확도 99% 확보.
+* **Semantic Matching Engine**: nomic-embed-text 임베딩 모델을 활용해 비정형 OCR 데이터를 실제 카탈로그 DB와 1:1로 정렬하는 매칭 로직 설계.
+* **Hybrid Retrieval Strategy**: 규칙 기반 필터링과 벡터 유사도 검색을 결합하여 환각(Hallucination) 응답 사전 차단.
 * **Data Engineering**: Python/SQL을 활용한 700만 건 이상의 대용량 데이터 전처리 및 정합성 검증 파이프라인 운영.
 
 ### 2. Enterprise Solution Launching
@@ -34,9 +34,9 @@
 ## 🌟 Strategic Projects
 
 ### 🏎️ Post-OCR 데이터 매칭 최적화 (Project 1)
-**비정형 문서 식별률 31% → 81% 개선**
+**비정형 문서 식별률 31% → 90% 개선**
 * **Problem**: OCR 추출 데이터와 정형 DB 간 불일치로 인한 낮은 식별률과 수동 검수 병목.
-* **Solution**: Ollama 임베딩 모델 기반의 벡터 유사도 검색 엔진 도입 및 HNSW 알고리즘을 통한 검색 속도 최적화.
+* **Solution**: nomic-embed-text 임베딩 모델 기반의 벡터 유사도 검색 엔진 도입 및 HNSW 알고리즘을 통한 검색 속도 최적화.
 * **Impact**: 검수 리드타임 67% 단축 및 완전 자동화 비중 확대로 매출 21% 성장 견인.
 
 ### 🏦 엔터프라이즈 B2B 런칭 및 인프라 표준화 (Project 2)
