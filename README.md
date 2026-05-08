@@ -1,4 +1,4 @@
-# 🚀 Technical PM Portfolio | 곽승연 (Gwak Seung-yeon)
+# 🚀 AI Product Manager | 곽승연 (Gwak Seung-yeon)
 
 > **"AI 기술의 결과물을 비즈니스 가치로 실증하는 Technical Product Manager입니다."**
 > 4년 3개월간 NICE디앤알에서 B2B 솔루션의 런칭부터 엔터프라이즈 인프라 구축, 운영 안정화까지 전체 수명 주기를 리딩했습니다.
@@ -19,9 +19,9 @@
 
 ## 🛠️ Technical Core Competencies
 
-### 1. AI & Embedding Operations
-* **Semantic Matching Engine**: nomic-embed-text 임베딩 모델을 활용해 비정형 OCR 데이터를 실제 카탈로그 DB와 1:1로 정렬하는 매칭 로직 설계.
-* **Hybrid Retrieval Strategy**: 규칙 기반 필터링과 벡터 유사도 검색을 결합하여 환각(Hallucination) 응답 사전 차단.
+### 1. AI & LLM Pipeline
+* **Hybrid Search Pipeline**: nomic-embed-text 임베딩과 규칙 기반 필터링을 결합한 하이브리드 검색 파이프라인 설계 (700만 건 비정형 문서, 정확도 31%→90%).
+* **LLM Evaluation**: LangGraph 기반 Self-correction 루프 + Grounding 테스트셋으로 LLM-as-a-Judge 자동 채점 파이프라인 단독 구축.
 * **Data Engineering**: Python/SQL을 활용한 700만 건 이상의 대용량 데이터 전처리 및 정합성 검증 파이프라인 운영.
 
 ### 2. Enterprise Solution Launching
@@ -33,10 +33,10 @@
 
 ## 🌟 Strategic Projects
 
-### 🏎️ Post-OCR 데이터 매칭 최적화 (Project 1)
+### 🏎️ 하이브리드 검색 파이프라인 설계 (Project 1)
 **비정형 문서 식별률 31% → 90% 개선**
-* **Problem**: OCR 추출 데이터와 정형 DB 간 불일치로 인한 낮은 식별률과 수동 검수 병목.
-* **Solution**: nomic-embed-text 임베딩 모델 기반의 벡터 유사도 검색 엔진 도입 및 HNSW 알고리즘을 통한 검색 속도 최적화.
+* **Problem**: 불용어가 많은 700만 건 비정형 문서 대상, 단일 임베딩 검색만으로는 식별률·비용 모두 한계.
+* **Solution**: nomic-embed-text 임베딩과 규칙 기반 필터링을 결합한 하이브리드 검색 파이프라인을 PM으로서 직접 설계, HNSW 알고리즘으로 검색 속도 최적화.
 * **Impact**: 검수 리드타임 67% 단축 및 완전 자동화 비중 확대로 매출 21% 성장 견인.
 
 ### 🏦 엔터프라이즈 B2B 런칭 및 인프라 표준화 (Project 2)
@@ -53,10 +53,15 @@
 
 ---
 
-## 📅 90-Day Vision in Upstage
-1. **Learn (1-30일)**: Upstage Document AI 제품군의 기술 스택 및 온프레미스 배포 환경 진단.
-2. **Contribute (31-60일)**: 폐쇄망 배포 가이드 표준화 및 데이터 피드백 루프 기반의 Confidence 대시보드 구축.
-3. **Lead (61-90일)**: 엔터프라이즈 고객 온보딩 TTV 단축 및 신규 도메인(물류/공공) 확장 기회 발굴.
+## 🎯 What I Bring as an AI PM
+
+1. **Pipeline Design**: 모델·임베딩·검색·평가까지 RAG 파이프라인 전 구조를 PM 관점에서 직접 설계하고 ROI까지 검증
+
+2. **Hallucination Control**: Self-correction 루프, Grounding 테스트셋, 하이브리드 Retrieval로 LLM 출력 신뢰성 확보
+
+3. **Stakeholder Orchestration**: RICE 스코어링 기반 우선순위 설계로 다수 이해관계자의 상충 요구를 정량적으로 조율
+
+4. **Enablement**: 단순 도구 제공이 아닌, 현업 구성원이 스스로 AI를 도구로 쓸 수 있는 가이드·표준·테스트 환경을 함께 설계
 
 ---
 
