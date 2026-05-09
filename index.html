@@ -23,10 +23,11 @@
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
             <span class="text-xl font-bold gradient-text">GWAK SEUNG YEON</span>
-            <div class="space-x-6 text-sm font-semibold text-slate-600">
-                <a href="#about" class="hover:text-indigo-600">About</a>
-                <a href="#projects" class="hover:text-indigo-600">Projects</a>
-                <a href="#skills" class="hover:text-indigo-600">Skills</a>
+            <div class="flex items-center gap-6 text-sm font-semibold text-slate-600">
+                <a href="#about" class="hidden md:inline hover:text-indigo-600">About</a>
+                <a href="#projects" class="hidden md:inline hover:text-indigo-600">Projects</a>
+                <a href="#approach" class="hidden md:inline hover:text-indigo-600">Approach</a>
+                <a href="#skills" class="hidden md:inline hover:text-indigo-600">Skills</a>
                 <a href="mailto:fyoo2829@gmail.com" class="bg-indigo-600 text-white px-4 py-2 rounded-full hover:bg-indigo-700">Contact</a>
             </div>
         </div>
@@ -195,6 +196,53 @@
                         <span class="px-3 py-1 bg-indigo-100 text-indigo-600 text-xs rounded">n8n</span>
                         <span class="px-3 py-1 bg-indigo-100 text-indigo-600 text-xs rounded">RAG</span>
                         <span class="px-3 py-1 bg-indigo-100 text-indigo-600 text-xs rounded">Chroma DB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="approach" class="bg-white py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-12 flex items-center gap-3">
+                <span class="w-8 h-1 bg-indigo-600 rounded-full"></span> Approach
+            </h2>
+
+            <p class="text-lg text-slate-600 leading-relaxed mb-12 max-w-3xl">
+                AI PM으로서 단순 도구 도입이 아닌, 측정 가능한 ROI와 재사용 가능한 자산을 만드는 방식으로 일합니다.
+            </p>
+
+            <div class="bg-indigo-50/40 border-l-4 border-indigo-600 p-8 rounded-2xl shadow-sm mb-16">
+                <span class="text-xs font-bold text-indigo-600 bg-white px-3 py-1 rounded-full inline-block">Stakeholder Orchestration</span>
+                <h3 class="text-2xl font-bold mb-3 mt-3">RICE 스코어링 모델 기반 정량 우선순위 설계</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    비즈니스 가치·구현 난이도를 축으로 하는 RICE 스코어링 모델로 31개 고객사의 상충 요구를 정량적 우선순위로 조율한 의사결정 프레임워크입니다.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-bold mb-8 text-slate-700">Mission as an AI PM</h3>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="metric-card bg-slate-50 p-6 rounded-xl border border-slate-100 hover:border-indigo-200">
+                        <span class="text-3xl font-bold text-indigo-600/30 block mb-3">01</span>
+                        <h4 class="font-bold mb-3 text-slate-800">Vertical Agent</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">ROI 검증된 도메인 과제를 발굴하고, ROI 기준선 수립부터 첫 출시까지 PM 주도로 구현합니다.</p>
+                    </div>
+                    <div class="metric-card bg-slate-50 p-6 rounded-xl border border-slate-100 hover:border-indigo-200">
+                        <span class="text-3xl font-bold text-indigo-600/30 block mb-3">02</span>
+                        <h4 class="font-bold mb-3 text-slate-800">Hallucination Control</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">Self-correction 루프와 Grounding 테스트셋으로 LLM 출력의 신뢰성을 확보합니다.</p>
+                    </div>
+                    <div class="metric-card bg-slate-50 p-6 rounded-xl border border-slate-100 hover:border-indigo-200">
+                        <span class="text-3xl font-bold text-indigo-600/30 block mb-3">03</span>
+                        <h4 class="font-bold mb-3 text-slate-800">Enablement</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">현업 구성원이 자력으로 에이전트를 설계할 수 있는 기술 가이드와 Spec 템플릿을 표준화합니다.</p>
+                    </div>
+                    <div class="metric-card bg-slate-50 p-6 rounded-xl border border-slate-100 hover:border-indigo-200">
+                        <span class="text-3xl font-bold text-indigo-600/30 block mb-3">04</span>
+                        <h4 class="font-bold mb-3 text-slate-800">Compliance Architecture</h4>
+                        <p class="text-sm text-slate-600 leading-relaxed">엔터프라이즈 보안·규제 환경에 부합하는 하이브리드 아키텍처를 Spec 단계부터 PM 주도로 설계합니다.</p>
                     </div>
                 </div>
             </div>

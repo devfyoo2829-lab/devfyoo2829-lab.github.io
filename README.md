@@ -53,15 +53,19 @@
 
 ---
 
-## 🎯 What I Bring as an AI PM
+## 🎯 Approach
 
-1. **Pipeline Design**: 모델·임베딩·검색·평가까지 RAG 파이프라인 전 구조를 PM 관점에서 직접 설계하고 ROI까지 검증
+AI PM으로서 단순 도구 도입이 아닌, 측정 가능한 ROI와 재사용 가능한 자산을 만드는 방식으로 일합니다.
 
-2. **Hallucination Control**: Self-correction 루프, Grounding 테스트셋, 하이브리드 Retrieval로 LLM 출력 신뢰성 확보
+### Stakeholder Orchestration
+**RICE 스코어링 모델 기반 정량 우선순위 설계**: 비즈니스 가치·구현 난이도를 축으로 하는 RICE 스코어링 모델로 31개 고객사의 상충 요구를 정량적 우선순위로 조율한 의사결정 프레임워크.
 
-3. **Stakeholder Orchestration**: RICE 스코어링 기반 우선순위 설계로 다수 이해관계자의 상충 요구를 정량적으로 조율
+### Mission as an AI PM
 
-4. **Enablement**: 단순 도구 제공이 아닌, 현업 구성원이 스스로 AI를 도구로 쓸 수 있는 가이드·표준·테스트 환경을 함께 설계
+1. **Vertical Agent**: ROI 검증된 도메인 과제 발굴 및 PM 주도 구현
+2. **Hallucination Control**: Self-correction 루프와 Grounding 테스트셋으로 LLM 신뢰성 확보
+3. **Enablement**: 현업 구성원이 자력으로 에이전트를 설계할 수 있는 가이드·표준 구축
+4. **Compliance Architecture**: 엔터프라이즈 보안·규제 환경에 부합하는 하이브리드 아키텍처 PM 주도 설계
 
 ---
 
